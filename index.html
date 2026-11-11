@@ -96,6 +96,7 @@
     .card-label { color: var(--muted); font-size: 12px; font-weight: 650; }
     h3 { margin: 0 0 6px; font-size: 19px; line-height: 1.25; letter-spacing: -.025em; }
     .card p { margin: 0; color: var(--muted); font-size: 15px; }
+    .card-link { display: inline-block; margin-top: 16px; color: var(--accent); font-size: 14px; font-weight: 650; }
     @media (max-width: 650px) {
       .wrap { width: min(100% - 36px, 1120px); }
       .nav { min-height: 72px; }
@@ -145,6 +146,11 @@
           <p class="section-note">A little bit of everything, built with care.</p>
         </div>
         <div class="grid">
+          <article class="card">
+            <div class="card-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19h16M6 19l2-4h8l2 4M8 15l2-4h4l2 4M10 11l2-4 2 4"/></svg></span><span class="card-label">Archive</span></div>
+            <h3>L.O.R.E. Cairns</h3><p>A collection of conversations and observations about learning, collaboration, and meaning.</p>
+            <a class="card-link" href="https://github.com/hybertius/lore-cairns">Explore L.O.R.E. Cairns on GitHub</a>
+          </article>
           <article class="card">
             <div class="card-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19V5m0 14h16M8 15l4-4 3 2 5-6"/><path d="M17 7h3v3"/></svg></span><span class="card-label">Analytics</span></div>
             <h3>Northstar</h3><p>A friendly analytics dashboard that turns messy data into clear next steps.</p>
